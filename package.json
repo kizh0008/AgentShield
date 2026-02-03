@@ -1,0 +1,21 @@
+{
+  "name": "agentshield",
+  "version": "1.0.0",
+  "description": "AgentShield is a **safety-first Solana trading agent** that executes trades only after **multi-stage confirmation**.   It combines market validation, scam detection, and time-based cyclic signal analysis (inspired by Vedic astrology) before allowing any on-chain action.",
+  "main": "index.js",
+  "scripts": {
+     "dev": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0"
+  }
+}
